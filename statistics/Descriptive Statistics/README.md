@@ -67,8 +67,109 @@ In the given set of data: 2, 4, 5, 5, 6, 7, the mode of the data set is 5 since 
 
 ## 4. Quantiles, Range and IQR
 
+### 4.1. Quantiles
+
+**Quantiles** are values that split sorted data or a probability distribution into equal parts. In general terms, a q-quantile divides sorted data into q parts. The most commonly used quantiles have special names:
+
+- `Quartiles (4-quantiles)`: Three quartiles split the data into four parts.
+
+- `Deciles (10-quantiles)`: Nine deciles split the data into 10 parts.
+
+- `Percentiles (100-quantiles)`: 99 percentiles split the data into 100 parts
+
+**Quartiles** are a type of percentile. A percentile is a value with a certain percentage of the data falling below it. In general terms, k% of the data falls below the kth percentile:
+
+- `The first quartile (Q1, or the lowest quartile)` is the 25th percentile, meaning that 25% of the data falls below the first quartile.
+
+- `The second quartile (Q2, or the median)` is the 50th percentile, meaning that 50% of the data falls below the second quartile.
+
+- `The third quartile (Q3, or the upper quartile)` is the 75th percentile, meaning that 75% of the data falls below the third quartile.
+
+![MarineGEO circle logo](https://www.scribbr.com/wp-content/uploads/2022/05/Quartile-example.webp)
+
+### 4.2. Range and IQR
+
+**Range** measures the difference between the minimum value and the maximum value in a dataset.
+
+`Range = Max - Min`
+
+**Interquartile range (IQR)** measures the difference between the first quartile (25th percentile) and third quartile (75th percentile) in a dataset. This represents the spread of the middle 50% of values
+
+`IQR = Q3 – Q1`
+
+
+![MarineGEO circle logo](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/interquartile-range-formula-1623222903.png)
 
 ## 5. Standard Deviation and Variance
+
+### 5.1. Standard Deviation
+
+**Standard Deviation** is a statistic that measures the dispersion of a dataset relative to its mean and is calculated as the square root of the variance.
+
+![MarineGEO circle logo](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/standard-deviation-1626765925.png)
+
+
+![MarineGEO circle logo](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/standard-deviation-formula-1626765976.png)
+
+### 5.2. Variance
+
+**Variance** is the measure of how notably a collection of data is spread out
+
+![MarineGEO circle logo](https://www.investopedia.com/thmb/_hIorwcVnDj-oKWhpTu_qnuUldM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Variance-TAERM-ADD-Source-464952914f77460a8139dbf20e14f0c0.jpg)
+
+***Formula***
+
+![MarineGEO circle logo](https://media.geeksforgeeks.org/wp-content/uploads/20230605183401/Variance-formula.png)
+
 ## 6. Coefficient of Variation
+
+**Coefficient of variation (CV)** is a statistical measure of the dispersion of data points in a data series around the mean.
+
+**Coefficient of variation (CV)** is a statistical measure of the dispersion of data points in a data series around the mean.
+
+***Formula***
+
+![MarineGEO circle logo](https://cdn.corporatefinanceinstitute.com/assets/coefficient-of-variation1.png)
+
 ## 7. Skew and Kurtosis
+
+### 7.1. Skew
+
+**Skewness** is a measurement of the distortion of symmetrical distribution or asymmetry in a data set:
+- ***A left-skewed distribution*** has a long left tail. Left-skewed distributions are also called negatively-skewed distributions. That’s because there is a long tail in the negative direction on the number line. The mean is also to the left of the peak.
+- ***A right-skewed distribution*** has a long right tail. Right-skewed distributions are also called positive-skew distributions. That’s because there is a long tail in the positive direction on the number line. The mean is also to the right of the peak.
+
+![MarineGEO circle logo](https://www.statisticshowto.com/wp-content/uploads/2014/02/pearson-mode-skewness.jpg)
+
+A distribution can have right (or positive), left (or negative), or zero skewness. A right-skewed distribution is longer on the right side of its peak, and a left-skewed distribution is longer on the left side of its peak:
+
+![MarineGEO circle logo](https://www.scribbr.com/wp-content/uploads/2022/05/Skewness-of-a-distribution.webp)
+
+### 7.2. Kurtosis
+
+**Kurtosis** is a statistical measure used to describe the degree to which scores cluster in the tails or the peak of a frequency distribution.
+
+The peak is the tallest part of the distribution, and the tails are the ends of the distribution.
+
+There are **three** types of kurtosis: mesokurtic, leptokurtic, and platykurtic:
+
+- ```Mesokurtic (Kurtosis = 3.0)```: Distributions that are moderate in breadth and curves with a medium peaked height.
+
+- ```Leptokurtic (Kurtosis > 3.0)```: More values in the distribution tails and more values close to the mean (i.e., sharply peaked with heavy tails)
+
+- ```Platykurtic (Kurtosis < 3.0)```: Fewer values in the tails and fewer values close to the mean (i.e., the curve has a flat peak and has more dispersed scores with lighter tails).
+
+![MarineGEO circle logo](https://www.simplypsychology.org/wp-content/uploads/Kurtosis.gif)
+
+There exists one more method of calculating the kurtosis called **excess kurtosis**. As kurtosis is calculated relative to the normal distribution, which has a kurtosis value of 3, it is often easier to analyse in terms of **excess kurtosis**.
+
+```Excess Kurtosis = Kurtosis - 3```
+
 ## 8. Correlation
+
+**Correlation** is a statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate).
+
+**Correlations** are used in advanced portfolio management, computed as the correlation coefficient, which has a value that must fall between -1.0 and +1.0.
+
+![MarineGEO circle logo](https://www.simplypsychology.org/wp-content/uploads/correlation.jpg)
+
