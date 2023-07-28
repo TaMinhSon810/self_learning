@@ -8,3 +8,7 @@
 **How to find outliers?**
 
 ![Alt text](image-1.png)
+
+## 2. Shifting and Scaling
+
+![Alt text](image.png)
