@@ -67,38 +67,6 @@ In the given set of data: 2, 4, 5, 5, 6, 7, the mode of the data set is 5 since 
 
 ## 4. Quantiles, Range and IQR
 
-### 4.1. Quantiles
-
-**Quantiles** are values that split sorted data or a probability distribution into equal parts. In general terms, a q-quantile divides sorted data into q parts. The most commonly used quantiles have special names:
-
-- `Quartiles (4-quantiles)`: Three quartiles split the data into four parts.
-
-- `Deciles (10-quantiles)`: Nine deciles split the data into 10 parts.
-
-- `Percentiles (100-quantiles)`: 99 percentiles split the data into 100 parts
-
-**Quartiles** are a type of percentile. A percentile is a value with a certain percentage of the data falling below it. In general terms, k% of the data falls below the kth percentile:
-
-- `The first quartile (Q1, or the lowest quartile)` is the 25th percentile, meaning that 25% of the data falls below the first quartile.
-
-- `The second quartile (Q2, or the median)` is the 50th percentile, meaning that 50% of the data falls below the second quartile.
-
-- `The third quartile (Q3, or the upper quartile)` is the 75th percentile, meaning that 75% of the data falls below the third quartile.
-
-![MarineGEO circle logo](https://www.scribbr.com/wp-content/uploads/2022/05/Quartile-example.webp)
-
-### 4.2. Range and IQR
-
-**Range** measures the difference between the minimum value and the maximum value in a dataset.
-
-`Range = Max - Min`
-
-**Interquartile range (IQR)** measures the difference between the first quartile (25th percentile) and third quartile (75th percentile) in a dataset. This represents the spread of the middle 50% of values
-
-`IQR = Q3 – Q1`
-
-
-![MarineGEO circle logo](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/interquartile-range-formula-1623222903.png)
 
 ## 5. Standard Deviation and Variance
 
@@ -166,10 +134,3 @@ There exists one more method of calculating the kurtosis called **excess kurtosi
 ```Excess Kurtosis = Kurtosis - 3```
 
 ## 8. Correlation
-
-**Correlation** is a statistical measure that expresses the extent to which two variables are linearly related (meaning they change together at a constant rate).
-
-**Correlations** are used in advanced portfolio management, computed as the correlation coefficient, which has a value that must fall between -1.0 and +1.0.
-
-![MarineGEO circle logo](https://www.simplypsychology.org/wp-content/uploads/correlation.jpg)
-
